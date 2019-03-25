@@ -219,6 +219,9 @@ bar {
 
 bindsym $mod+Ctrl+l exec /usr/local/bin/lock
 # autostart section
-exec mako --anchor bottom-right
+exec mako --anchor bottom-right # notifications
+
+# Gaps
+smart_gaps on
 
 include /etc/sway/config.d/*
